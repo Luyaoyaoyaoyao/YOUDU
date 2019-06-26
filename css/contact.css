@@ -1,0 +1,221 @@
+.news{
+    overflow: hidden;
+}
+.news .content{
+    padding-top: 20px;
+}
+.contact-title{
+    text-align: center;
+    font-size: 26px;
+    color: #c8000b;
+    margin-bottom: 20px; 
+}
+.contact-info{
+    overflow: hidden;
+    margin: 0 0 14px 0;
+}
+.contact-info>.contact-left{
+    padding: 30px 0 0 30px;
+    background: #f5f5f5;
+    height: 276px;
+}
+.contact-info>.contact-left>.contact-top{
+    overflow: hidden;
+    margin-bottom: 25px;
+}
+.contact-info>.contact-left>.contact-top>ul>li{
+    width: 50%;
+    float: left;
+}
+.contact-info>.contact-left img{
+    float: left;
+}
+.contact-info>.contact-left .top-info{
+    float: left;
+    padding-left: 20px;
+}
+.contact-info>.contact-left .top-info>span{
+    font-size: 14px;
+    color: #555;
+}
+.contact-info>.contact-left .top-info>p{
+    font-size: 20px;
+    color: #555;
+    font-family: Arial;
+}
+.contact-info>.contact-left>.add{
+    overflow: hidden;
+    margin-bottom: 19px;
+}
+.contact-info>.contact-left>.add>.top-info>p{
+    font-size: 14px;
+}
+.contact-info>.contact-right{
+    padding-top: 20px;
+    text-align: center;
+    background: #e2e2e2;
+    height: 276px;
+}
+.contact-info>.contact-right>h3{
+    font-size: 14px;
+    font-weight: normal;
+    color: #000;
+    margin-top: 10px; 
+}
+.contact-map{
+    border: 1px solid #ebebeb;
+    padding: 9px;
+}
+.inmain-right>.right-phone{
+    color: #fff;
+    text-align: center;
+    padding: 14px 14px 74px 14px;
+    background: #d53535 url(../img/contact/right-phone.png) no-repeat bottom center;
+    overflow: hidden;
+    /* margin-top: 10px; */
+}
+.inmain-right>.right-phone>span{
+    font-size: 28px;
+}
+.inmain-right>.right-phone>p{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 46px;
+}
+.inmain-right>.right-phone>p>a{
+    color: #fff;
+}
+.inmain-right>.right-people{
+    padding: 15px;
+    border: 1px solid #e5e5e5;
+    overflow: hidden;
+    background: #f5f5f5 url(../img/contact/right-team.png) no-repeat center left;
+    margin-bottom: 10px;
+}
+.inmain-right>.right-people>a>.pic{
+    width: 115px;
+    height: 115px;
+    float: left;
+    margin-right: 18px;
+}
+.inmain-right>.right-people>a>.pic>img{
+    transition: .5s;
+}
+.inmain-right>.right-people>a>.team-info>h3{
+    font-size: 18px;
+    font-weight: normal;
+    color: #d53535;
+    float: left;
+    margin-bottom: 13px;
+    margin-right: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.inmain-right>.right-people>a>.team-info>span{
+    display: block;
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-bottom: 13px; 
+}
+.inmain-right>.right-people>a>.team-info>p{
+    font-size: 12px;
+    color: #777;
+    /* clear: both; */
+    overflow: hidden;
+    height: 72px;
+    line-height: 24px;
+}
+.inmain-right>.right-people:hover .pic>img{
+    transform: scale(1.04);
+}
+.inmain-right>.right-field{
+    border: 2px solid #d53535;
+    margin-bottom: 10px;
+}
+.inmain-right>.right-field>.field-title{
+    background: #d53535;
+}
+.inmain-right>.right-field>.field-title>a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 41px;
+    height: 43px;
+    background: #d53535 url(../img/contact/dot.png) no-repeat 8px center;
+    padding-left: 22px;
+}
+.inmain-right>.right-field>ul{
+    width: 100%;
+    overflow: hidden;
+    background: #fff;
+    margin: 0;
+}
+.inmain-right>.right-field>ul>li{
+    width: 50%;
+    height: 49px;
+    border-bottom: 2px solid #ececec;
+    border-right: 2px solid #ececec;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.inmain-right>.right-field>ul>li:nth-child(2n){
+    border-right: none;
+}
+.inmain-right>.right-field>ul>li>a{
+    display: block;
+    padding: 13px 0;
+    overflow: hidden;
+}
+.inmain-right>.right-field>ul>li>a>.pic{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 10px 0 38px;
+}
+.inmain-right>.right-field>ul>li>a>h3{
+    float: left;
+    font-weight: normal;
+    max-width: 66px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 16px;
+}
+.inmain-right>.right-news{
+    margin-bottom: 50px;
+}
+.inmain-right>.right-news>.news-title{
+    background: #f90;
+}
+.inmain-right>.right-news>.news-title>a{
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    background: #f90 url(../img/contact/dot.png) no-repeat 8px center;
+    padding-left: 22px;
+}
+.inmain-right>.right-news>ul{
+    width: 100%;
+    overflow: hidden;
+    background: #f5f5f5;
+}
+.inmain-right>.right-news>ul>li{
+    height: 42px;
+    line-height: 41px;
+    border-top: 1px solid #ddd;
+}
+.inmain-right>.right-news>ul>li>a{
+    display: block;
+    background: url(../img/contact/dot01.png) no-repeat 23px center;
+    font-size: 12px;
+    padding-left: 35px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #555;
+}

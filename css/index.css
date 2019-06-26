@@ -1,0 +1,165 @@
+body{
+    font-family: "microsoft yahei",arial;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    width: 100%;
+}
+.home-professional{
+    padding: 45px 0px;
+    overflow: hidden;
+}
+.home-title span{
+    font-size: 32px;
+    color: #444;
+    display: block;
+    line-height: 40px;
+}
+.home-title p{
+    font-size: 12px;
+    color: #333;
+    text-transform: uppercase;
+    line-height: 27px;
+    letter-spacing: 10px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    outline: 0;
+    color: #666;
+}
+.home-title{
+    text-align: center;
+    padding-bottom: 7px;
+    background: url(../img/index/line01.jpg) no-repeat bottom center;
+}
+.home-content{
+    padding: 45px 0px 40px 0px;
+    overflow: hidden;
+}
+.home-professional ul{
+    margin: 0 -15px;
+}
+.home-professional ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 50px;
+    padding: 0px 15px;
+}
+.home-professional ul li a{
+    display: block;
+    padding-bottom: 8px;
+}
+.pic{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.pic::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.home-professional ul li a .pic{
+    width: 85px;
+    height: 85px;
+    transition: 0.5S;
+    margin: 0 auto;
+}
+.home-professional ul li a .pic .ph{
+    display: none;
+}
+.middleCenter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.home-professional ul li a h3{
+    font-size: 18px;
+    color: #333;
+    margin-top: 16px;
+    font-weight: normal;
+    white-space: nowrap;  
+
+}
+.home-professional ul li a span{
+    font-size: 14px;
+    color: #666;
+    display: block;
+    background: url(../img/index/line02.png) no-repeat bottom center;
+    height: 27px;
+    margin-bottom: 10px;
+}
+.home-professional ul li a p{
+    line-height: 24px;
+    font-size: 12px;
+    color: #888;
+    width: 90%;
+    height: 48px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.home-professional ul li a:hover{
+    background: #e50012;
+}
+.home-professional ul li a:hover .pic{
+    transform: rotateY(180deg);
+}
+.home-professional ul li a:hover .pic .p{
+    display: none;
+}
+.home-professional ul li a:hover .pic .ph{
+    display: block;
+}
+.home-professional ul li a:hover h3,.home-professional ul li a:hover p,.home-professional ul li a:hover span{
+    color: #fff;
+}
+.home-team{
+    padding: 49px 0px 31px 0px;
+    background: #ececec url(../img/index/team-bg.jpg) no-repeat bottom center;
+}
+.home-team .container{
+    position: relative;
+}
+.team-bottom{
+    background: #eaeaea url(../img/index/team-bottom.jpg) no-repeat bottom center;
+}
+.team-bottom ul{
+    margin: 0 -16px;
+}
+.team-bottom ul li{
+    width: 25%;
+    float: left;
+    padding: 0 16px;
+    text-align: center;     
+}
+.team-bottom ul li h3{
+    font-size: 24px;
+    color: #333;
+    font-weight: normal;
+    margin-top: 10px; 
+}
+.team-bottom ul li p{
+    height: 37px;
+    line-height: 37px;
+    color: #9a9a9a;
+    padding: 0 5px;
+}
+.home-news .home-news-left{
+    float: left;
+    overflow: hidden;
+}
+.home-news .home-news-right{
+    float: left;
+}
+.home-news .home-title{
+    text-align: left;
+    background: url(../img/index/line01.jpg) no-repeat bottom left;
+}

@@ -1,0 +1,133 @@
+/* 大屏样式 */
+@media screen and (min-width: 992px){
+    ul{
+        list-style: none;
+    }
+    .header{
+        display: flex;
+        padding: 0;
+        justify-content: space-between;
+    }
+    .header>#content>ul>li>a{
+        width: 86px;
+        height: 86px;
+        font-size: 16px;
+        padding: 0;
+        text-align: center;
+        line-height: 86px;
+        color: #000;
+    }
+    .active{
+        background-color: #c8000b;
+        color: #fff !important;
+    }
+    .header>#content>ul>li:hover>a{
+        background-color: #c8000b;
+        color: #fff !important;
+    }
+    /* 导航栏菜单选项样式 */
+    #content{
+        /* padding-right: 5%;
+        margin-right: 10%; */
+        justify-content: center;
+        position: relative;
+    }  
+    #content>ul>li+li{
+        margin-left: 5%;
+    }
+    #content>ul>li>a{
+        color: #000;
+    }
+    .header>#content>ul>li .menulist{
+        /* display: block; */
+        z-index: 10;
+        position: absolute;
+        width: 0px;
+        background: url(../img/arrow.png) no-repeat top center;
+        margin-left: 35px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 7px;
+        top: 79px;
+        overflow: hidden;
+        transition: all .3s linear;
+    }
+    .header>#content>ul>li .menulist>ul{
+        background: #fff;
+        padding: 13px 0px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        overflow: hidden;
+    }
+    .header>#content>ul>li .menulist>ul>li{
+        height: 36px;
+        line-height: 36px;
+        margin-bottom: 6px;
+        overflow: hidden;
+    }
+    .header>#content>ul>li .menulist>ul>li>a{
+        font-size: 16px;
+        color: #6f6f6f;
+    }
+    .header>#content>ul>li:hover .menulist{
+        /* display: block; */
+        position: absolute;
+        width: 155px;
+        margin-left: -35px;
+        text-align: center;
+        border-radius: 5px;
+        padding-top: 7px;
+        top: 79px;
+        overflow: hidden;
+    }
+    .header>#content>ul>li:hover .menulist>ul>li:hover{
+        background: #ebebeb;
+    }
+    .header>#content>ul>li:hover .menulist>ul>li>a:hover{
+        color: #c8000b;
+    }
+    
+
+
+    /* 导航栏按钮样式 */
+    #btn{
+        display: none;
+    }
+}
+
+/* 中屏及其以下的样式 */
+@media screen and (max-width: 991px){
+    /* logo和按钮两端对齐 */
+    .header{
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+    /* 设置按钮图片尺寸样式 */
+    #btn{
+        height: 22px;
+        display: flex;
+        border: none;
+    }
+    #content{
+        position: fixed;
+        left: 75%;
+        top: 56px;
+        width: 25%;
+        z-index: 10;
+    }
+    #content>ul{
+        height: 860px;
+        background-color: #c8000b;
+        text-align: center;
+        opacity: 0.9 !important;
+    }
+    #content li{
+        margin-top: 20px; 
+    }
+    #content a{
+        color: #fff;
+    }
+    .header>#content>ul>li .menulist{
+        display: none;
+    }
+}

@@ -1,0 +1,39 @@
+#footer{
+    background: #2f4e62 url(../img/footer/footer.jpg) no-repeat bottom center;
+}
+#footer .d-flex{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#footer img{
+    margin-right: 30px;
+}
+#footer span{
+    font-size: 18px;
+}
+#footer a{
+    color: #fff;
+}
+#footer p>a{
+    font-size: 40px;
+}
+#footer p>a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+#footer ul{
+    margin-left: 30px;
+}
+#footer li>a:hover{
+    text-decoration: none;
+    color: #e8000b;
+}
+#footer #ewm{
+    text-align: center;
+}
+#footer #ewm>img{
+    margin-left: 30px;
+}
+#footer p,li>a,#ewm>h3{
+    font-size: 14px;
+}

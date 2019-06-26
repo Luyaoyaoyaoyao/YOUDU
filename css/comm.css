@@ -1,0 +1,103 @@
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	outline:0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "microsoft yahei",arial;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+a:hover{
+    text-decoration: none;
+    color: #666;
+}
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1200px;
+    }
+}
+.yd-color{
+    color: #c8000b;
+}
+
+/* 设置头部尺寸 */
+/* header{
+    width: 100%;
+    position: fixed;
+    background: transparent;
+    z-index: 8;
+} */
+.my_header{
+    width: 100%;
+    height: 100%;
+}
+/* 设置底部尺寸 */
+.my_footer{
+    width: 100%;
+    height: 100%;
+}
+img{
+    border: 0;
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+}
+
+/* 子页面的面包屑导航样式 */
+.current{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+    margin-bottom: 32px;
+}
+.current img{
+    width: 17px;
+    vertical-align: sub;
+}
+.current a,.current span{
+    color: #999;
+}
+.current span b{
+    color: #6f6f6f;
+    font-weight: normal;
+}
+.current span a:hover{
+    color: #e8000b;
+}
+
+/* 律师照片公共样式 */
+.pic{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.pic::after{
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+.middleCenter{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    text-align: center;
+    margin: auto;
+}

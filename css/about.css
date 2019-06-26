@@ -1,0 +1,91 @@
+.current{
+    border-bottom: 1px solid #e0e0e0;
+    padding: 10px 0;
+    margin-bottom: 32px;
+}
+.current img{
+    width: 17px;
+    vertical-align: sub;
+}
+.current a,.current span{
+    color: #999;
+}
+.current span b{
+    color: #6f6f6f;
+    font-weight: normal;
+}
+.current span a:hover{
+    color: #e8000b;
+}
+.second-nav{
+    position: relative;
+    padding-bottom: 15px;
+}
+.second-nav ul{
+    border: 1px solid #e2e2e2;
+    text-align: center;
+    box-shadow: 0 2px 10px #e4e4e4;
+}
+.second-nav ul li{
+    display: inline-block;
+}
+.second-nav ul li a{
+    display: block;
+    width: 100%;
+    height: 51px;
+    line-height: 51px;
+    font-size: 16px;
+    color: #6f6f6f;
+}
+.second-nav ul li a::after{
+    content: "";
+    display: none;
+    background: url(../img/about/down.png) no-repeat bottom center;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    margin-top: -1px;
+    z-index: 5;
+}
+.second-nav .active{
+    background: #c8000b;
+}
+.second-nav .active{
+    color: #fff;
+}
+.second-nav a[class=active]::after{
+    display: block;
+}
+.second-nav ul li a:hover{
+    background: #c8000b;
+    color: #fff;
+}
+.second-nav ul li a:hover::after{
+    display: block;
+}
+.content{
+    padding: 40px 0px;
+    min-height: 500px;
+}
+#about,#model,#organization{
+    width: 100%;
+    height: 100%;
+    background: #fff;
+}
+.content .company-title{
+    font-size: 32px;
+    font-weight: normal;
+    color: #444;
+}
+.content .company-title>img{
+    vertical-align: sub;
+}
+.content p{
+    font-size: 12px;
+}
+.content>#organization{
+    text-align: center;
+}
+.hide{
+    display: none;
+}
